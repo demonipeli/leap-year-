@@ -3,14 +3,14 @@
 
 main ()
 {
-	int yil;
+	int year;
 	printf("Bir yil gir: ");
-	scanf("%d",&yil);
+	scanf("%d",&year);
 	
 	if ( yil % 4 == 0 )
-		printf("%d artik yil\n",yil);
+		printf("%d artik yil\n",year);
 	else
-		printf("%d artik yil degil\n",yil);
+		printf("%d artik yil degil\n",year);
 		
 getch ();
 }
