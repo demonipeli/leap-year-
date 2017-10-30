@@ -10,7 +10,7 @@ main ()
 	if ( yil % 4 == 0 )
 		printf("%d artik yil\n",yil);
 	else
-		printf("%d artik yil degil\n",yil);
+		printf("%d artik yil degil",yil);
 		
 getch ();
 }
